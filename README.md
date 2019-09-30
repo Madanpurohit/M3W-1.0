@@ -22,7 +22,7 @@ Highly Interactive and Intelligent Attentive and Interactive Chatbot
 * Please While writing code explain the code as much as possible to avoid watching video by others
 * The Jobs will proceed at the end of Data Processing Job
 
-1. Kashish Bhau  :  Step-10 to Step-12   (Save File with Name Data Preprocessing part 2)
+1. Kashish Bhau  :  Step-10 to Step-12   (Save File with Name Data Preprocessing part 2) (DONE)
 2. Varun Bhau    :  Step-13 to Step-15   (Save File with Name Data Preprocessing part 3)
 3. Madan Bhau    :  Step-16 to Step-17   (Save File with Name Data Preprocessing part 4)
 4. Dipankar Bhau :  Step-4 to Step-9     (Save File with Name Data Preprocessing part 1) (DONE)
