@@ -26,3 +26,5 @@ for i in range(len(list_of_clean_answers)):
     list_of_clean_answers[i] += '<EOS>'
 '''End of string token is needed at the end of the decoding layers of the
 sect to sect model'''
+
+----------------------------------------------------END--------------------------------------------------
