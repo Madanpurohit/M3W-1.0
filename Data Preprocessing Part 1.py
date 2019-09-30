@@ -65,3 +65,29 @@ for conversation in conversations_ids :                    # Now here we are cre
 # The thing is every next Index points to answer of previous Index.
 # Like 'L195' is answer of 'L194' & 'L196' is answer of 'L195' ans so on
 # So to create question and answer list we need two loop 
+
+
+
+# Cleaning The Text (Removing Unnecessary elements from text)
+# Cleaning also include Converting text into lower case
+# We are Creating clean_text function
+
+def clean_text(text) :
+  text = text.lower()                                                # Converting Into Lower Case
+  text = re.sub(r"i'm", "i am", text)                                # Creating Substitute for complex word and replacing it
+  text = re.sub(r"he's", "he is", text)                              # For Example : 
+  text = re.sub(r"she's", "she is", text)                            # i'm = i am, she's = she is
+  text = re.sub(r"that's", "that is", text)                          # won't = will not etc.
+  text = re.sub(r"what's", "what is", text)
+  text = re.sub(r"where's", "where is", text)
+  text = re.sub(r"\'ll", "will", text)
+  text = re.sub(r"\'ve", "have", text)
+  text = re.sub(r"\'re", "are", text)
+  text = re.sub(r"\'d", "would", text)
+  text = re.sub(r"won't", "will not", text)
+  text = re.sub(r"can't", "cannot", text)
+  text = re.sub(r"[-()\-#/@:;<>+=|.?,]", "", text)                   # Removing Special Characters
+  return text                                                        # Returning cleaned text
+
+
+-------------------------------------------------------------END---------------------------------------------------------------
