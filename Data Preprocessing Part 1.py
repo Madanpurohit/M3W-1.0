@@ -37,3 +37,31 @@ for conversation in conversations[:-1] :
 # to append it.
 
 # By the end we will get two Clean data variable of line and conversation which will be easy to use #
+
+
+
+# Creating List of Question and Answer
+# The answer of Queston in Question list of index i will be in index i in answer List.
+
+# Creating List Variable of question and Answer
+questions = []
+answer = []
+
+# id2line contain every Lines with Key. It contains question and answer.
+
+for conversation in conversations_ids :                    # Now here we are creating two List of Question and Answer
+  for i in range(len(conversation) - 1) :                  # id2line contain data in this form
+    questions.append(id2line[conversation[i]])             # |Key     Type    Size        Value          |
+    answer.append(idl2line[conversation[i+1]])             # |L1000    str     1    Because he called me.|
+                                                           # And conversations_ids are in this format.
+                                                           # |index    type    size              Value                   |
+                                                           # |  0      list     4      ['L194', 'L195', 'L196', 'L197']  |
+                                                           # Ignore type and size its only for explaination the table only 
+                                                           # contain Key and Value in id2line and Value in conversations_ids
+          
+# Explaination :
+# In converations_ids part we hae |Values| as a list of Key or kinda Index Pointer.
+# Here in Example ['L194', 'L195', 'L196', 'L197'].  'L194' id a pointer or index
+# The thing is every next Index points to answer of previous Index.
+# Like 'L195' is answer of 'L194' & 'L196' is answer of 'L195' ans so on
+# So to create question and answer list we need two loop 
