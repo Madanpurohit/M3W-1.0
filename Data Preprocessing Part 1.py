@@ -52,7 +52,7 @@ answers = []
 for conversation in conversations_ids :                    # Now here we are creating two List of Question and Answer
   for i in range(len(conversation) - 1) :                  # id2line contain data in this form
     questions.append(id2line[conversation[i]])             # |Key     Type    Size        Value          |
-    answer.append(idl2line[conversation[i+1]])             # |L1000    str     1    Because he called me.|
+    answers.append(idl2line[conversation[i+1]])             # |L1000    str     1    Because he called me.|
                                                            # And conversations_ids are in this format.
                                                            # |index    type    size              Value                   |
                                                            # |  0      list     4      ['L194', 'L195', 'L196', 'L197']  |
