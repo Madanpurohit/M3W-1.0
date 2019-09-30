@@ -45,7 +45,7 @@ for conversation in conversations[:-1] :
 
 # Creating List Variable of question and Answer
 questions = []
-answer = []
+answers = []
 
 # id2line contain every Lines with Key. It contains question and answer.
 
