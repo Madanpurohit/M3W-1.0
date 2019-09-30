@@ -8,7 +8,7 @@ Highly Interactive and Intelligent Attentive and Interactive Chatbot
 4. Dipankar
 
 # Aims
-1. Data Preprocessing - 40% Completed
+1. Data Preprocessing - 80% Completed
 2. Building Seq2Seq Model - 0% Completed
 3. Training Model - 0% Completed
 4. Testing The Model - 0% Completed
