@@ -9,7 +9,7 @@ Highly Interactive and Intelligent Attentive and Interactive Chatbot
 
 # Aims
 1. Data Preprocessing - 100% Completed
-2. Building Seq2Seq Model - 0% Completed
+2. Building Seq2Seq Model - 30% Completed
 3. Training Model - 0% Completed
 4. Testing The Model - 0% Completed
 
@@ -23,7 +23,7 @@ Highly Interactive and Intelligent Attentive and Interactive Chatbot
 * The Jobs will proceed at the end of Seq2Seq Model.
 
 1. Kashish Bhau  :  Step-24              (Save File with Name Seq2Seq Model part 4) 
-2. Varun Bhau    :  Step-18 to Step-19   (Save File with Name Seq2Seq Model part 1) 
+2. Varun Bhau    :  Step-18 to Step-19   (Save File with Name Seq2Seq Model part 1) (DONE)
 3. Madan Bhau    :  Step-20 to Step-21   (Save File with Name Seq2Seq Model part 2) 
 4. Dipankar Bhau :  Step-22 to Step-23   (Save File with Name Seq2Seq Model part 3) 
 
